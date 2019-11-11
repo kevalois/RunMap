@@ -1,0 +1,44 @@
+
+.addPlace-page{
+    background: url('https://miro.medium.com/max/3332/0*yPSQlTHRvLaIVBcG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.addPlace-img{
+    background: rgba(0, 0, 0, 0.575);
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addPlace-title{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+        h2{
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: start;
+
+            color: white
+        }
+}
+
+.addPlace-pannel{
+    background-color: #2d2d32;
+
+}
+
+.addPlace-user-inputs{
+    padding: 2rem;
+}
+
+.addPlace-form-group{
+    
+    // code ... 
+}

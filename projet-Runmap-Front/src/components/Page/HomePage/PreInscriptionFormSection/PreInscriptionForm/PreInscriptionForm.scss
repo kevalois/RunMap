@@ -1,0 +1,58 @@
+.signup-form-group {
+    text-align: center;
+    padding-left: 64px;
+    padding-right: 64px;
+
+}
+
+.signup-button-email, .signup-button-fb{
+        background: #fff;
+        
+        padding: 1rem 2rem;
+
+        border-radius: 5px;
+
+        font-size: 1rem;
+
+        @media screen and (max-width: 812px){
+            font-size: .8rem;
+            padding: .8rem 2rem;
+        }
+}
+
+.signup-button-fb{
+    border-color: #3b5998;
+    color: #3b5998;
+}
+.signup-button-fb:hover{
+    color: #fff;
+    background:#3b5998;
+    font-weight: bold;
+}
+
+.signup-button-email{
+    border-color: #FFC107;
+    color: #FFC107;
+}
+.signup-button-email:hover{
+    color: #fff;
+    background:#FFC107;
+    font-weight: bold;
+}
+
+.hr{
+    font-size: .5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid black;
+    height: 1px;
+}
+
+.hr .hr-text{
+    background-color: #fff;
+    color: #999;
+    display: inline-block;
+    padding: 0 12px;
+    transform: translateY(-60%)
+}

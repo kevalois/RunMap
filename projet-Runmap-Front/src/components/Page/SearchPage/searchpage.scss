@@ -1,0 +1,60 @@
+
+.result-card{
+    text-align: start;
+}
+
+.adresse-stade{
+    font-size: 10px;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.info-horaires{
+    font-size: 10px;
+    color: grey;
+}
+
+.avatar-stade{
+    min-width: 200px;
+    min-height: 150px;
+
+    background: url("https://cdn.vox-cdn.com/thumbor/uHfVGxFNF9-mryuA5ipu7CNvR5o=/0x40:1000x790/920x613/filters:focal(0x40:1000x790)/cdn.vox-cdn.com/uploads/chorus_image/image/46889290/shutterstock_266758136.0.0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.btn-ajout{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.informations-stade h6{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+
+    border-bottom: 1px rgb(206, 204, 204) solid;
+
+    margin-top: 1rem;
+}
+
+.informations-stade p{
+    font-size: 12px;
+}
+
+.infos-avis{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.row-no-padding {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+[class*="col-"],  /* Elements whose class attribute begins with "col-" */
+[class^="col-"] { /* Elements whose class attribute contains the substring "col-" */
+  padding-left: 0;
+  padding-right: 0;
+}

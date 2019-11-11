@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 0;
+    background-color: #2d2d32; 
+    color: #fff;
+    font-size: 10px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: start;
+    
+        h5{
+          font-size: 10px;
+          font-weight: 700;
+          color: #FFC107;
+          margin-bottom: 30px;
+        }
+
+        a{
+            color: #fff;
+        }
+
+        a:hover{
+            color: #FFC107;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .list-nav li{
+            margin: 0 0 16px 0;
+        }
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.nav-group{
+    text-transform: uppercase;
+}

@@ -1,0 +1,129 @@
+.register-body{
+    background: url(https://s7d2.scene7.com/is/image/dksfed/CLP_RunApparel_FebWk4_S1_MW);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container-page{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registration-panel{
+    background-color: #2d2d32;
+
+    text-align: center;
+    color: #fff;
+
+    border-radius: 5px;
+
+    padding: 1rem;
+
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+.panel-title{
+    margin: 1rem;
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.button-signup{
+    background: #FFC107;
+
+    border-radius: 5px;
+    border-color: #FFC107;
+
+    padding: .5rem 2rem;
+
+    color: #fff;
+
+    margin: 1rem;
+}
+
+.disclaimer-text{
+    color: #606065;
+
+    font-size: .8rem;
+
+        a{
+            color: #FFC107;
+        }
+}
+
+
+
+/*
+.form-group:focus{
+
+    border: 1px solid #FFC107;
+    border-radius: 6px;
+}
+
+.btn.fb-button{
+    color: #fff;
+    background-color: #3b5998;
+
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.btn.google-button{
+    color: #fff;
+    background-color: #e03307;
+
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.btn.signup-button{
+    color: #fff;
+    border: 2px solid #FFC107;
+}
+
+.signup-button:hover{
+    background-color: #FFC107;
+    font-weight: 600;
+}
+
+.text-caption{
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFC107;
+    margin: 20px 0px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-avatar{
+    border: 2px dashed #FFC107;
+    border-radius: 5px;
+    background: rgba(204, 204, 204, 0.247);
+
+    .avatar-label{
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+.disclaimer-text p {
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    line-height: 1.5em;
+
+    color: #606065;
+
+    a{
+        color: #FFC107;
+    }
+}
+*/

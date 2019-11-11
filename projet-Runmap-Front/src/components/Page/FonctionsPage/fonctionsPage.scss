@@ -1,0 +1,131 @@
+
+.header-FonctionsPage{
+    height: 70vh;
+
+    background: url('https://www.sitegeek.fr/wp-content/uploads/2019/09/Top-5-montres-running.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row-container{
+    height: 70vh;
+
+    h2{
+        font-size: 3rem;
+        text-align: start;
+    }
+
+    @media screen and (max-width: 812px){
+        h2{
+            text-align: center;
+        }
+    }
+}
+
+.col-fonctions{
+    background: rgba(231, 230, 230, 0.61);
+    padding: 2rem;
+    
+}
+
+.icon-logo{
+    font-size: 4rem;
+}
+.text-icon{
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+.just-img{
+    height: 90vh;
+
+    background: url('https://dfp2hfrf3mn0u.cloudfront.net/kin/kinabalu-running-1600x750-division-landing-banner-SCOTT-Sports_1571716_jpg_original_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+        h3{
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+        }
+}
+
+.container-descript{
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-title{
+    font-size: 2rem;
+
+    @media screen and (max-width: 812px){
+        line-height: 2rem;
+        margin-top: -4rem;
+    }
+}
+
+.content-text{
+    font-weight: 200;
+    width: 50%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 812px){
+        font-size: .95rem;
+        width: 100%;
+    }
+}
+
+.container-mapping{
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+}
+
+.img-map{
+    height: 50vh;
+
+    background: url('https://api.mapbox.com/styles/v1/mapbox/streets-v9/tiles/13/4127/2992?access_token=pk.eyJ1Ijoic2Vsb2dlcm1hcHMiLCJhIjoiY2plOGRlcDJ6MGhwNjJxbXpyNmh6ejlwZCJ9.vI6XPK7FnI-MFcH-DAGDLw');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 0px 43px 15px rgba(199,197,199,1);
+}
+
+.col-content-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-map-title{
+
+    @media screen and (max-width: 812px){
+        margin-top: 1.5rem;
+    }
+}
+
+.content-map-text{
+    font-weight: 200;
+    width: 80%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 812px){
+        margin-bottom: 4rem;
+        font-size: .95rem;
+    }
+}

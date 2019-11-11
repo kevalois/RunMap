@@ -1,0 +1,121 @@
+
+.business-header{
+    height: 70vh;
+
+    background: url('http://www.type1runningteam.org/wp-content/uploads/2018/09/02062018-DSC00208.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background-header-black{
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.582);
+}
+.container-business-header{
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-business-content p{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.motivation-content{
+    padding: 2rem;
+
+        p{
+            font-weight: 200;
+        }
+}
+
+.business-counter{
+    margin-bottom: 5rem;
+   
+}
+
+.col-counter-devider{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.counter-number{
+    font-size: 3rem;
+}
+
+.counter-descript{
+    font-size: .8rem;
+    margin-top: -.5rem;
+}
+
+.container-solutions, .col-business{
+    height: 70vh;
+    margin-top: 2rem;
+}
+
+.col-business{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-title{
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: bold;
+    color: orange;
+    
+    text-align: start;
+}
+
+.text-title {
+    padding-right: 4rem;
+    
+    h4 {
+        text-align: start;
+    }
+}
+
+.text-content{
+    text-align: start;
+
+    padding-right: 4rem;
+}
+
+.col-img-club{
+    background: url('https://www.kalenji.fr/sites/kalenji/files/equipe_kalenji.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 70vh;
+
+    box-shadow: 0px 0px 43px 15px rgba(199,197,199,1);
+}
+
+.col-img-work{
+    background: url('https://www.inverseteams.com/sites/default/files/profesionales/galeria/inverse_trail_running_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 70vh;
+
+    box-shadow: 0px 0px 43px 15px rgba(199,197,199,1);
+}
+
+.col-img-pro{
+    background: url('https://miro.medium.com/max/2862/1*tAkPQ1FBthfHfHw1HGRRwQ.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 70vh;
+
+    box-shadow: 0px 0px 43px 15px rgba(199,197,199,1);
+}
+

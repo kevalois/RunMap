@@ -1,0 +1,75 @@
+
+.container-form{
+    height: 90vh;
+    width: auto;
+
+    background: url(https://content.brooksrunning.com/-/media/Project/Brooks-Running/Content/Fall-2018/December-HP/December-HP-12-1/EMEA/CategoryNavigationBannersCatBanner28801620.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .card-form{
+        padding: 40px;
+
+        background: #ffffff8e;
+
+        border: 1px solid #FFC107;
+        box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    }
+
+    .card-title h2{
+        font-weight: 600;
+        text-transform: uppercase;
+
+        margin-bottom: 10px;
+    }
+
+    .hr{
+        border: none;
+        border-top: 1px solid #000;
+
+        width: 50%;
+
+        margin: auto;
+    }
+
+    .hr2{
+        width: 30%;
+
+        border: none;
+        border-top: 4px solid #FFC107;
+
+        margin: auto;
+        transform: translateY(-60%);
+    }
+}
+
+.container-contact{
+
+    .form-sujet{
+        margin-top: 20px;
+    }
+
+    input{
+        margin-bottom: -5px;
+    }
+
+    .muted{
+        font-size: 12px;
+    }
+
+    .btn-send-message{
+        background: #FFC107;
+        padding: 5px 40px;
+    }
+
+    .btn-send-message:hover{
+        background: rgb(230, 173, 4);
+        color: #fff;
+    }
+
+}
